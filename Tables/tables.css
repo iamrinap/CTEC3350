@@ -1,3 +1,22 @@
 /*stylesheet for tables*/
-table {font-family: verdanda;
-        font-size: }
+table, td {
+        font-family: verdana, sans;
+        border: 1px solid black;
+        border-collapse: collapse;}
+
+td { padding: 10px;}
+
+th { background-color: dimgrey;
+     color: white;
+     padding: 12px;
+     }
+
+th:nth-child(2n+2){border: 1px solid white;
+                    border-top: none;}
+caption {border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        padding: 10px;
+        background-color: lightgrey;
+        color: black;
+        font-weight: bold;}
