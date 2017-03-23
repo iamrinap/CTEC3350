@@ -13,6 +13,7 @@ th { background-color: dimgrey;
 
 th:nth-child(2n+2){border: 1px solid white;
                     border-top: none;}
+
 caption {border-top: 1px solid black;
         border-right: 1px solid black;
         border-left: 1px solid black;
