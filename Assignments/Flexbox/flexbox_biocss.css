@@ -1,0 +1,181 @@
+    /* External Font Embed */
+
+@import url('https://fonts.googleapis.com/css?family=Crete+Round:400,400i|Montserrat:200,200i,300,300i,400');
+
+/* End of External Font Embed */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    font-size: 24px;
+}
+
+body {
+    color: #444;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Crete Round', serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 2.618em;
+    line-height: 3rem;
+    margin: 1rem auto 2rem auto;
+    color: #888888;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.618em;
+    line-height: 2rem;
+    margin: 1rem auto 2rem auto;
+    color: #cccccc;
+    text-align: center;
+}
+
+.bio-title h3 {
+    color: #ffffff;
+}
+
+h3 {
+    font-size: 1em;
+    line-height: 1.25rem;
+    margin: 1rem auto;
+    color: #ffffff;
+}
+
+p {
+    font-size: 0.618em;
+    line-height: 0.75rem;
+    margin: 0.25rem auto 0.75rem auto;
+    color: #222222;
+}
+
+img.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* BIO COMPONENT */
+
+.bio {
+    width: 70%;
+    margin: 20px auto;
+    border: 1px solid #333333;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+}
+
+.bio-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.bio-title {
+    flex: 1 100%;
+    box-sizing: border-box;
+    background-color: #333333;
+    line-height: 1em;
+    margin: 0;
+    padding: .75rem;
+}
+
+.bio-pic {
+    flex: 1 30%;
+    box-sizing: border-box;
+}
+
+.bio-pic img {
+    max-width: 100%;
+}
+
+.bio-description {
+    flex: 1 70%;
+    box-sizing: border-box;
+    padding: 0.75rem;
+}
+
+
+/*bio classes*/
+
+.bio.left {}
+
+.bio.right .bio-container {
+    -webkit-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.bio.stacked .bio-container {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.bio.reverse.stacked .bio-container {
+    -webkit-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    align-items: stretch;
+}
+
+.bio.stacked .bio-container .bio-title,
+.bio.stacked .bio-container .bio-pic,
+.bio.stacked .bio-container .bio-description,
+{
+    flex: 1 100%;
+}
+
+.bio.stacked .bio-container .bio-pic {
+    align-self: center;
+}
+
+.bio.stacked.reverse .bio-container .bio-title {
+    order: 1;
+}
+
+@media screen and (max-width: 30em) {
+    .bio .bio-container {
+        -webkit-flex-direction: column !important;
+        flex-direction: column !important;
+        align-items: stretch;
+    }
+    .bio .bio-container .bio-title,
+    .bio .bio-container .bio-pic,
+    .bio .bio-container .bio-description,
+    {
+        flex: 1 100%;
+    }
+    
+    .bio .bio-container .bio-title {
+        order: 1;
+    }
+    .bio .bio-container .bio-pic {
+        order: 2;
+    }
+    .bio .bio-container .bio-description {
+        order: 3;
+    }
+    @media screen and (min-width:30.01em) and (max-width: 48em) {}
+    @media screen and (min-width:48.01em) and (max-width: 60em) {}
+    @media screen and (min-width:60.01em) and (max-width: 80em) {}
+    @media screen and (min-width:80.01em) {}
