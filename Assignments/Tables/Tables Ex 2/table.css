@@ -1,9 +1,10 @@
 /*stylesheet for exercise 2*/
+table { margin: 0 auto;}
 
 table,
 td {
     font-family: verdana;
-    font-size: 10px;
+    font-size: 1em;
     padding: 5 5;
     border: 1px solid black;
     border-collapse: collapse;
@@ -15,6 +16,7 @@ caption {
     border: none;
     padding: 5px;
     background-color: lightgray;
+    font-size: 1.25em;
     font-weight: bold;
 }
 

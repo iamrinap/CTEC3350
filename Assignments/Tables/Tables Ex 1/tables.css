@@ -1,4 +1,6 @@
 /*stylesheet for tables*/
+table { margin: 0 auto;}
+
 table, td {
         font-family: verdana, sans;
         border: 1px solid black;

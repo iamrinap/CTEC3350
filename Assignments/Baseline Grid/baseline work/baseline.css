@@ -4,7 +4,7 @@
 }
 
 
-body {
+html, body {
   color:aqua;
 }
 
@@ -28,8 +28,8 @@ h2 {
 }
 
 p { font-size: 1em;
-    line-height: 1rem;
-    margin: 1rem auto 2rem auto;
+    line-height: 1.25rem;
+    margin: .5rem auto 2rem auto;
     font-family: serif;
     color: dimgray;
 }
@@ -42,23 +42,22 @@ q {
 @media screen and (max-width: 30em) {
     html,
     body {
-        font-size: 28px;
+        font-size: 24px;
     }
     .container {
         width: 90%;
-        padding: 0 2em;
         margin: 0 auto;
+        font-family: sans-serif;
     }
 }
 
 @media screen and (min-width:30.01em) and (max-width: 48em) {
       html,
     body {
-        font-size: 32px;
+        font-size: 28px;
     }
     .container {
         width: 85%;
-        padding: 0 2em;
         margin: 0 auto;
     }
 }
@@ -66,11 +65,10 @@ q {
 @media screen and (min-width:48.01em) and (max-width: 60em) {
   html,
     body {
-        font-size: 36px;
+        font-size: 32px;
     }
     .container {
         width: 80%;
-        padding: 0 2em;
         margin: 0 auto;
     }
 }
@@ -78,25 +76,24 @@ q {
 @media screen and (min-width:60.01em) and (max-width: 80em) {
       html,
     body {
-        font-size: 40px;
+        font-size: 36px;
     }
     .container {
         width: 75%;
-        padding: 0 2em;
         margin: 0 auto;
     }
+}
 
 @media screen and (min-width:80.01em) {
     html,
     body {
         font-size: 40px;
+        margin: 0 auto;
     }
     .container {
         width: 70%;
         padding: 0 2em;
         margin: 0 auto;
     }
-    h1 {}
-    h2 {}
-    p {}
+   
 }
