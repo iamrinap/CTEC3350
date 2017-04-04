@@ -9,14 +9,34 @@
     <link rel=" stylesheet " href="form_exercise.css "> </head>
 
 <body>
-    <form action="post "> Username:
-        <input type="text " name="username ">
-        <br> Password::
-        <input type="password " name="password ">
-        <br> Email:
-        <input type="email" name="email ">
-        <br> Favorite Day of the Week
-        <br> Monday
+    <h2>Form Exercise</h2>
+    <form action="post ">
+        <div class=“form-group”>
+            <label for=“firstName”>First Name:</label>
+            <div class=“form-control”>
+                <input type=“text” name=“firstName” id=“firstName” /> </div>
+        </div>
+        <div class="form-group">
+            <label for="lastName">Last Name:</label>
+            <div class="form-control">
+                <input type="text" name="lastName" id="lastName" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <div class="form-control">
+                <input type="text " name="username" id="username" /> </div>
+        </div>
+        <div class="form-group">
+            <label for="password"> Password:</label>
+            <div class="form-control">
+                <input type="password" name="password" id="password"> </div>
+        </div>
+        <div class="form-group"><label for="email">Email:</label><div class="form-control"><input type="email" name="email" id="password"></div>
+        </div>
+        <br>
+        <div class="form-group"><label for="favweekday">Favorite Day of the Week:</label><div class="form-control">
+        Monday
         <input type="radio" name="favday" value="M"> Tuesday
         <input type="radio" name="favday" value="T"> Wednesday
         <input type="radio" name="favday" value="W"> Thursday
@@ -24,24 +44,47 @@
         <input type="radio" name="favday" value="F"> Saturday
         <input type="radio" name="favday" value="S"> Sunday
         <input type="radio" name="favday" value="Su">
-        <br> What social media do you use?
-        <br> Facebook
-        <input type="checkbox" name="Facebook"> Snapchat
-        <input type="checkbox" name="Snapchat"> Instagram
-        <input type="checkbox" name="Instagram"> YouTube
-        <input type="checkbox" name="Youtube">
-        <br> Mailing Address:
+            </div>
+        </div>
         <br>
-        <table>
-            <tr>Street: </tr><input type="text" name="Street">
-            <tr>City: </tr><input type="text" name="City">
-            <tr>State: </tr><input type="text" name="State">
-            <tr>Zipcode: </tr><input type="number" name="zipcode">
-        </table>
+        <div class="form-group"><label for="WhichSM">Which social media do you use?</label><div class="form-control"> 
+        <input type="checkbox" name="Facebook">Facebook
+        <input type="checkbox" name="Snapchat">Snapchat
+        <input type="checkbox" name="Instagram">Instagram
+        <input type="checkbox" name="Youtube">Youtube
+            </div>
+        </div>
+        <br>
+        <div class="form-group"><label for="MailAddress">Mailing Address:</label>
+        <div class="form-control"><br>
+            
+            <table>
+                <tr colspan="2">
+                    <th>Street</th>
+                    <td><input type="text" name="street"></td>
+                </tr>
+                <tr colspan="2">
+                    <th>City</th>
+                    <td><input type="text" name="city"></td>
+                </tr>
+                <tr colspan="2">
+                    <th>State</th>
+                    <td><input type="text" name="state"></td>
+                </tr>
+                <tr colspan="2">
+                    <th>Zipcode</th>
+                    <td><input type="number" name="zipcode"></td>
+                </tr>
+            </table>
+            </div>
+        </div>
+        <br>
+        <div class="form-group"><label for="comments">Comments:</label><div class="form-control"><textarea name=“comments” placeholder="Write your comments here!" maxlength=“200”></textarea>
+            </div>
+        </div>
+        <br>
         
-        Comments: <textarea name="comments"> 
-        
-        </textarea> 
+        <div class="form-group"><div class="form-control"><input type="submit" name="submit" value="submit"></div></div>
     </form>
 </body>
 

@@ -1,0 +1,36 @@
+/*image gallery stylesheet*/
+
+html,
+body {
+    font-family: helvetica, arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.2em;
+    color: black;
+}
+
+.gallery {
+    width: 60%;
+}
+
+ul {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+img src { width: 100px;}
+ 
+ul li span img src { display: none;}
+
+span img:hover { display: none;}
+
+li:hover { display: none;}

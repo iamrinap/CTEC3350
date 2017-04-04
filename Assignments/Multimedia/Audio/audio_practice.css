@@ -1,1 +1,22 @@
 /*stylesheet for audio_practice*/ 
+body {
+        background-color: #000000;
+      }
+      
+      audio {
+        width: 150px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 12px;
+        background-color: #ff00ff;
+      }
+      
+      audio:hover {
+        width: 100%;
+        max-width: 500px;
+      }
+
+                
+    
+    
+}
