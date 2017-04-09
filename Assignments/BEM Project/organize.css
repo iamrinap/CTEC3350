@@ -1,0 +1,60 @@
+/*stylesheet for the organization*/
+
+.sample-here pre {
+    background-color: lightgrey;
+    color: #333333;
+    display: block;
+    padding: 1rem;
+    border: 0.5rem solid #cccccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+.sample {
+    display: block;
+    padding: 1rem;
+    border: 0.5rem solid #cccccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+.sample pre {
+    border-top: 0.5rem solid #cccccc;
+    background-color: lightgrey;
+    margin: 1rem -1rem -1rem;
+    box-sizing: border-box;
+}
+
+pre {
+    overflow: hidden;
+    padding-left: 1rem;
+}
+
+td {
+    padding: 1rem;
+}
+
+.content-col {
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 14px;
+    padding-left: 14px;
+}
+
+.setup {
+    margin-top: 2.8rem;
+}
+
+}
+
+/*
+
+div.setup { 
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    
+} */
