@@ -1,5 +1,29 @@
 /*stylesheet for the organization*/
 
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {}
+
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+div.content-col {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
 .sample-here pre {
     background-color: lightgrey;
     color: #333333;
@@ -18,6 +42,8 @@
     box-sizing: border-box;
 }
 
+.sample table td {}
+
 .sample pre {
     border-top: 0.5rem solid #cccccc;
     background-color: lightgrey;
@@ -30,15 +56,13 @@ pre {
     padding-left: 1rem;
 }
 
-td {
-    padding: 1rem;
+table {
+    width: 100%;
 }
 
-.content-col {
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 14px;
-    padding-left: 14px;
+td {
+    text-align: center;
+    padding: 1rem;
 }
 
 .setup {
@@ -46,29 +70,75 @@ td {
 }
 
 
-/*
+/*media queries*/
 
-div.setup { 
-    position: relative;
-    box-sizing: border-box;
-    padding-left: 1.2rem;
-    padding-right: 1.2rem;
-    margin-left: 1.2rem;
-    margin-right: 1.2rem;
+@media (max-width: 576px) {
+    div.content-col {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    div.events {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    td hr {
+        display: none;
+    }
+    td:nth-child(2) {
+        display: none;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        width: 576px;
+        max-width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    div.content-col {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 768px;
+        max-width: 90%;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    div.content-col {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+  
     
-} */
+}
 
-#tobiasmadethis tr:nth-of-type(3n + 2) td {
-        display: none;
+@media (min-width: 992px) {
+    .container {
+        width: 992px;
+        max-width: 80%;
+        padding-left: 30px;
+        padding-right: 30px;
     }
-
-@media only screen and (max-width: 650px) {
-    #tobiasmadethis tr:nth-of-type(3n + 1) td:nth-of-type(2) {
-        display: none;
+    div.content-col {
+        padding-left: 30px;
+        padding-right: 30px;
     }
+}
 
-    #tobiasmadethis tr:nth-of-type(3n + 2) td {
-        display: block;
-        text-align: center;
+@media (min-width: 1200px) {
+    .container {
+        width: 1200px;
+        max-width: 70%;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    div.content-col {
+        padding-left: 35px;
+        padding-right: 35px;
     }
 }
