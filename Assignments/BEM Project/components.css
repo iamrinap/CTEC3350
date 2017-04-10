@@ -1,0 +1,69 @@
+/*Components CSS addit*/
+
+div.events {
+    width: 100%;
+    border: .5rem solid #cccccc;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 2rem;
+}
+
+div#event{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #cccccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+
+div.item-img {
+    order: 1;
+    flex: 0 40%;
+    height: 250px;
+    width: 250px;
+    border: 2px solid #cccccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+div.item-description {
+    order: 2;
+    flex: 1 55%;
+    padding: 1rem;
+    font-size: 1.1rem;
+    line-height: 2.7rem;
+}
+
+div.item h4.item-title {
+    order: 2;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+ul.classes-used,
+ul.classes-used li {
+    list-style: none;
+}
+
+@media (max-width: 576px){
+ 
+    
+    div.item-img {
+        order: 1;
+        flex: 1 100%;
+    }
+    
+    div.item-description {
+        order: 2;
+        flex: 1 100%;
+    }
+    
+}
