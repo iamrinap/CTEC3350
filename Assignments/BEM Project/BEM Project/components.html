@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>BEM for Java Jam</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Components BEM for Java Jam Sarina Proctor</title>
+    <link href="https://fonts.googleapis.com/css?family=Lusitana|Wendy+One" rel="stylesheet">
+    <link href="components.css" rel="stylesheet">
+    <link href="typography.css" rel="stylesheet">
+    <link href="organize.css" rel="stylesheet"> </head>
+
+<body>
+    <div class="container" id="setup">
+        <div class="top">
+            <div class="navex">
+                <ul class="inline">
+                    <li><a href="index.html">Index</a></li>
+                    <li><a href="components.html">Events Component</a></li>
+                    <li><a href="component2.html">Site Banner Component</a></li>
+                    <li><a href="components3.html">Jobs Component</a></li>
+                    <li><a href="component4.html">Menu Component</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content-col">
+            <div class="setup">
+                <h2>Events Component</h2>
+                <p>This component will display the events you wish to feature on a weekly/bi-weekly basis. </p>
+                <h3>Classes</h3>
+                <ul class="classes-used">
+                    <li>&lt;div class="events"&gt;/div&gt;</li>
+                    <ul>
+                        <li>&lt;div class="items-container"&gt; </li>
+                    </ul>
+                    <ul>
+                        <li>&lt;div class="item" id="event1"&gt; &lt;/div&gt; </li>
+                    </ul>
+                    <ul>
+                        <li>&lt;div class="item-img"&lt;/div&gt;</li>
+                    </ul>
+                    <ul>
+                        <li>&lt;div class="item-description"&lt;/div&gt;</li>
+                    </ul>
+                    <ul>
+                        <li>&lt;h4 id="item-title"&lt;/h4&gt;</li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="events">
+                <h3 id="events">Events</h3>
+                <div class="event-banner-img"></div>
+                <div class="events-container">
+                    <div class="item" id="event1">
+                        <div class="item-img"></div>
+                        <div class="item-description">
+                            <h4 id="event-title">Event Name</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                        </div>
+                    </div>
+                    <div class="item" id="event2">
+                        <div class="item-img"></div>
+                        <div class="item-description">
+                            <h4 class="event-title">Event Name</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

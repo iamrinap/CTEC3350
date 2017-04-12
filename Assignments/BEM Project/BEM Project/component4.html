@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>BEM for Java Jam</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <title>Components BEM for Java Jam Sarina Proctor</title>
+    <link href="https://fonts.googleapis.com/css?family=Lusitana|Wendy+One" rel="stylesheet">
+    <link href="components.css" rel="stylesheet">
+    <link href="typography.css" rel="stylesheet">
+    <link href="organize.css" rel="stylesheet"> </head>
+
+<body>
+    <div class="container" id="setup">
+        <div class="top">
+            <div class="navex">
+                <ul class="inline">
+                   <li><a href="index.html">Index</a></li>
+                    <li><a href="components.html">Events Component</a></li>
+                    <li><a href="component2.html">Site Banner Component</a></li>
+                    <li><a href="components3.html">Jobs Component</a></li>
+                    <li><a href="component4.html">Menu Component</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content-col">
+            <div class="setup">
+                <h2>Menu Component</h2>
+                <p>This component will display the menu displaying a photo and description. </p>
+                <h3>Classes</h3>
+                <ul class="classes-used">
+                    <li>&lt;div class="menu"&gt;/div&gt;</li>
+                    <ul>
+                        <li>&lt;div class="items-container"&gt; </li>
+                    </ul>
+                    <ul>
+                        <li>&lt;div class="item" id="event1"&gt; &lt;/div&gt; </li>
+                    </ul>
+                    <ul>
+                        <li>&lt;div class="item-img"&lt;/div&gt;</li>
+                    </ul>
+                    <ul>
+                        <li>&lt;div class="item-description"&lt;/div&gt;</li>
+                    </ul>
+                    <ul>
+                        <li>&lt;h4 id="item-title"&lt;/h4&gt;</li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="menu">
+                <h3 id="menu">Menu</h3>
+                <div class="menu-banner-img"></div>
+                <div class="menu-container">
+                    <div class="item" id="product1">
+                        <div class="item-img"></div>
+                        <div class="item-description">
+                            <h4 id="product-title">Product Name</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                        </div>
+                    </div>
+                    <div class="item" id="product2">
+                        <div class="item-img"></div>
+                        <div class="item-description">
+                            <h4 class="product-title">Product Name</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

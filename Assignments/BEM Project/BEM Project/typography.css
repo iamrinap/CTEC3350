@@ -1,0 +1,89 @@
+/* Typography stylesheet for JAVA BEM*/
+@import url(https://fonts.googleapis.com/css?family=Lusitana|Wendy+One)
+
+    * {
+        margin: 0 auto;
+        padding: 0 auto;
+}
+
+html, body {
+    font-size: 62.5%;
+    font-family: Lusitana, sans-serif;
+    font-weight: 300;
+}
+
+body {
+    color: darkslategrey;
+}
+
+h1, h2, h3, h4 {
+    font-family: Wendy One, serif;
+    font-weight: normal;
+    color: darkslategrey;
+
+}
+
+h1, .h1 {
+  font-size: 4.8rem;
+  line-height: 5.2rem; 
+  margin: 1rem auto 1.5rem auto;
+}
+
+h2, .h2 {
+  font-size: 4rem;
+  line-height: 4.8rem;
+  margin: 1rem auto 1.25rem auto;
+}
+
+h3, .h3 {
+  font-size: 3.2rem;
+  line-height: 4rem;
+  margin: 1rem auto 1rem auto;
+}
+
+h4, .h4 {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  margin: 1rem auto 1rem auto;
+}
+
+.h1, .h2, .h3, .h4 {
+  display: inline-block;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 2.2rem; 
+  margin: 1rem auto 2rem auto;
+}
+
+b, strong {
+  font-weight: 800;
+  color: #222222;
+}
+
+code {
+      font-size: 1.4rem;
+        line-height: 2.8rem;
+}
+
+ul, li {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+}
+
+ul.inline {
+    list-style: none;  
+    }
+
+ul.inline li {
+    display: inline-block;
+    padding: .6rem;
+}
+
+td:nth-child(2) {
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+}
+
+@media 

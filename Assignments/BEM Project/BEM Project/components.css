@@ -1,0 +1,367 @@
+<<<<<<< HEAD
+/*for the events*/
+
+div.events {
+    width: 100%;
+    border: .5rem solid #cccccc;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+h3#events {
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+
+div.event-banner-img {
+    width: 90%;
+    display: block;
+    height: 100px;
+    border: 2px solid #cccccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    margin: 3rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+}
+
+div.events-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+div#event1 {
+    flex: 1 1 30%;
+    order: 1;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 15%;
+    margin: 1rem;
+    padding: 2rem;
+    border: 2px solid #cccccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+div#event2 {
+    flex: 1 1 30%;
+    order: 1;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 15%;
+    margin: 1rem;
+    padding: 2rem;
+    border: 2px solid #cccccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+div.item-img {
+    order: 1;
+    flex: 1 1 15%;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #cccccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+div.item-description {
+    order: 2;
+    flex: 1 0 25%;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+/*
+h4#event-title {
+    order: 2;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+*/
+
+ul.classes-used,
+ul.classes-used li {
+    list-style: none;
+}
+
+
+/*for the banner*/
+
+div.banner {
+    width: 80%;
+    border: .5rem solid #cccccc;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    margin: 15px;
+    max-height: 200px;
+    max-width: 800px;
+}
+
+div.banner-container {
+    padding: 1rem;
+    height: 100px;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: space-around;
+}
+
+div.banner-description {
+    order: 2;
+    flex: 1 0 25%;
+    height: 25%;
+    margin 0;
+    ;
+    padding-left: 1rem;
+}
+
+div.banner-img {
+    flex: 1 1 50%;
+    order: 3;
+    margin: .5rem;
+    width: 100px;
+    height: 90px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+h4#banner img {
+    flex: 1 1 25%;
+    order: 1;
+}
+
+
+/*for the job opportunities*/
+
+div.jobs {
+    width: 100%;
+    border: .5rem solid #cccccc;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+h3#jobs {
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+
+div.jobs-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
+
+div#job1.item {
+    flex: 1 35%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 2rem;
+    padding: 2rem;
+    border: 2px solid #cccccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+div#job2.item {
+    flex: 1 35%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 2rem;
+    padding: 2rem;
+    border: 2px solid #cccccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+div#job3.item {
+    flex: 1 35%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 2rem;
+    padding: 2rem;
+    border: 2px solid #cccccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+div#job4.item {
+    flex: 1 35%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 2rem;
+    padding: 2rem;
+    border: 2px solid #cccccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+h4#title {
+    order: 2;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+
+/*for the menu*/
+
+div.menu {
+    width: 100%;
+    border: .5rem solid #cccccc;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+h3#menu {
+    padding-top: 1rem;
+    padding-left: 3rem;
+}
+
+div.menu-banner-img {
+    width: 94%;
+    height: 100px;
+    border: 2px solid #cccccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    margin: 3rem;
+    padding-left: 2rem;
+    padding-right: 3rem;
+}
+
+div.menu-container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+div#product1.item {
+    flex: 1 1 30%;
+    order: 1;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 15%;
+    margin: 1rem;
+    padding: 2rem;
+    border: 2px solid #cccccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+div#product2.item {
+    flex: 1 1 30%;
+    order: 1;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 15%;
+    margin: 1rem;
+    padding: 2rem;
+    border: 2px solid #cccccc;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+/*css for navigation*/
+
+div.navigation {
+    width: 70%;
+    border: .5rem solid #cccccc;
+    border-radius: .5rem;
+    background-color: #cccccc;
+    box-sizing: border-box;
+    padding-left: 4rem;
+    padding-right:2rem;
+    
+    
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+div {
+    background-color: #ffffff;
+    border: 1px solid slategrey;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    flex: 1 25%;
+}
+
+/*media queries*/
+
+@media (max-width: 576px) {
+    div.item-img {
+        order: 1;
+        flex: 1 100%;
+    }
+    div.item-description {
+        order: 2;
+        flex: 1 100%;
+    }
+    div.banner-img {
+        display: none;
+    }
+}
+
+@media (min-width: 1200px) {}
+
+=======
