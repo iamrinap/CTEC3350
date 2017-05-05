@@ -1,0 +1,111 @@
+/*grid-system JJCH*/
+body {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.top-container {
+    
+    display: grid;
+    grid-template-columns: 0.25fr 15px 0.75fr;
+    grid-template-rows: auto 25px auto 25px auto 25px auto;
+    
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+.container {
+    display: grid;
+    grid-template-columns: 0.25fr 15px 0.75fr;
+    grid-template-rows: auto 25px auto 25px auto 25px auto;
+    
+     max-width: 1080px;
+    margin: auto;
+ 
+}
+
+.grid-header {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    
+    max-width: 670px;
+    max-height: 100px;
+      
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    
+    background: #cccccc;
+    border: .25rem solid #666666;
+}
+
+.grid-banner {
+    background: #ffffff;
+    
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    
+    padding: 15px 15px 30px;
+    height: auto;
+    width: 75%;
+    margin-top: 25px;
+    border: .25rem solid #666666;
+    box-sizing: border-box;
+}
+
+.grid-content {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    
+    background: #cccccc;
+    height: auto;
+   
+    border: .25rem solid #666666;
+    box-sizing: border-box;
+    padding: 25px;
+}
+
+.grid-footer {
+    
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    
+    margin: 30px 0 auto;
+    background: #ffffff;
+    border: .25rem solid #666666;
+    box-sizing: border-box;
+}
